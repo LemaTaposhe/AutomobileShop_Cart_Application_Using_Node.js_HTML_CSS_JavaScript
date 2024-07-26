@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "krimi", ".", "{99449D60-AD15-485C-A29F-5074E5DA27AE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60672"
+		Debug.AspNetCompiler.PhysicalPath = "..\krimi\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60672\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60672"
+		Release.AspNetCompiler.PhysicalPath = "..\krimi\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60672\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60672"
+		SlnRelativePath = "..\krimi\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99449D60-AD15-485C-A29F-5074E5DA27AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99449D60-AD15-485C-A29F-5074E5DA27AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D182A10-2CE3-452D-9671-82104DDE3A59}
+	EndGlobalSection
+EndGlobal

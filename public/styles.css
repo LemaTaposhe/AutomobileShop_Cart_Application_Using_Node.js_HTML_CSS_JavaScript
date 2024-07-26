@@ -1,0 +1,118 @@
+﻿/* Importing Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Updated to Roboto */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,113,1) 35%, rgba(0,212,255,1) 100%); /* Updated gradient background */
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-left: 20px;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+/* Adjusted the .container selector to be more specific for the products */
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .card p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .card button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 8px 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .card button:hover {
+            background-color: #0056b3;
+        }
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav h1, nav ul {
+        text-align: center;
+    }
+
+        nav ul li {
+            display: block;
+            margin: 5px 0;
+        }
+}
